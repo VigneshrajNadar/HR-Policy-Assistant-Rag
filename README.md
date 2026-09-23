@@ -61,15 +61,6 @@ Source citations are a core part of the experience. HR answers affect real decis
 > [!NOTE]
 > This repository is structured like a production engineering project, while still keeping deployment and infrastructure lightweight enough for a portfolio environment.
 
-## Live Demo
-
-| Resource | URL |
-| --- | --- |
-| Frontend | `https://hr-policy-assistant-gules.vercel.app/` |
-| Backend | `https://hr-policy-assistant-b595.onrender.com` |
-| Swagger / OpenAPI | `https://hr-policy-assistant-b595.onrender.com/docs` |
-| GitHub | `https://github.com/anoopsinghji/hr-policy-assistant` |
-| Demo Video | `https://github.com/anoopsinghji/HR-Policy-Assistant` |
 
 ## Screenshots
 
