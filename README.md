@@ -13,7 +13,7 @@
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=ffffff)](https://www.docker.com/)
 [![Vercel](https://img.shields.io/badge/Frontend-Vercel-000000?logo=vercel&logoColor=ffffff)](https://vercel.com/)
 [![Render](https://img.shields.io/badge/Backend-Render-46E3B7?logo=render&logoColor=111111)](https://render.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 
 ## Table Of Contents
 
@@ -598,24 +598,8 @@ Building this project exercised the full path from local RAG prototype to deploy
 | Memory | Added conversation-aware question rewriting and bounded history formatting. |
 | Production Debugging | Worked through deployment, cold starts, API keys, indexing, and cross-origin behavior. |
 
-## License
 
-This project is licensed under the MIT License.
 
-See [`LICENSE`](./LICENSE) for details.
-
-## Author
-
-| Field | Link |
-| --- | --- |
-| GitHub | [github.com/Anoop Singh](https://github.com/anoosinghji) |
-| LinkedIn | [linkedin.com/in/Anoop Singh](https://linkedin.com/in/anoopsinghji) |
-| Portfolio | [My-portfolio](https://anoop-singh-portfolio.vercel.app/) |
-| Email | `bfcroay@gmail.com` |
-
-> Built as a production-style AI engineering project focused on practical RAG architecture, deployment, and user-facing reliability.
-
-## Acknowledgements
 
 This project builds on excellent tools from:
 
