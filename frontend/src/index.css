@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: #24211f;
+    background: #f5f6f8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+button,
+textarea,
+input {
+    font: inherit;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b8c0cc;
+    border: 3px solid transparent;
+    border-radius: 999px;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #8c96a3;
+    border: 3px solid transparent;
+    background-clip: content-box;
+}

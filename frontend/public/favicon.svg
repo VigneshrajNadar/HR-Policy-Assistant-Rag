@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AI HR chatbot favicon">
+  <rect width="64" height="64" rx="14" fill="#24211f"/>
+  <path d="M13 18c0-5 4-9 9-9h20c5 0 9 4 9 9v18c0 5-4 9-9 9H29l-10 8v-8c-3.5-1.1-6-4.5-6-8z" fill="#f7f8fa"/>
+  <path d="M24 18h16c3.3 0 6 2.7 6 6v10c0 3.3-2.7 6-6 6H24c-3.3 0-6-2.7-6-6V24c0-3.3 2.7-6 6-6z" fill="#e9edf2" stroke="#d8dde5" stroke-width="2"/>
+  <path d="M32 14v4" stroke="#b25b32" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="11" r="3.5" fill="#b25b32"/>
+  <circle cx="27" cy="29" r="3" fill="#24211f"/>
+  <circle cx="37" cy="29" r="3" fill="#24211f"/>
+  <path d="M28 35c2.3 2 5.7 2 8 0" stroke="#2f7d5c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M22 48h20l5 7H17z" fill="#b25b32"/>
+  <path d="M29 48h6l-3 7z" fill="#fff"/>
+  <path d="M15 17l-4-4m38 4 4-4" stroke="#2f7d5c" stroke-width="3" stroke-linecap="round"/>
+</svg>
