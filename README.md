@@ -35,8 +35,7 @@
 - [Known Limitations](#known-limitations)
 - [Future Improvements](#future-improvements)
 - [Learning Outcomes](#learning-outcomes)
-- [License](#license)
-- [Author](#author)
+
 - [Acknowledgements](#acknowledgements)
 
 ## Project Overview
