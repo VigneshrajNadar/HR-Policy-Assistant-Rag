@@ -6,7 +6,8 @@ def get_embedding_model():
 
     from langchain_huggingface import HuggingFaceEmbeddings
     
-    print("Initializing HuggingFaceEmbeddings (MiniLM)...")
+    print("Initializing HuggingFaceEmbeddings (MiniLM) on CPU...")
     return HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2"
+        model_name="sentence-transformers/all-MiniLM-L6-v2",
+        model_kwargs={"device": "cpu"},
     )
