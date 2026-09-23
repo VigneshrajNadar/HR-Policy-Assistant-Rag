@@ -4,7 +4,7 @@ import shutil
 
 from fastapi import UploadFile
 
-from services.embedding_factory import create_embedding_model
+from services.embedding_factory import get_embedding_model
 from rag.loader import load_document
 from rag.splitter import split_documents
 from rag.vector_store import (
@@ -47,9 +47,7 @@ class UploadService:
 
     def _vector_store(self):
 
-        return load_vector_store(
-            create_embedding_model()
-        )
+        return load_vector_store()
 
 
     def list_uploaded_pdfs(self):

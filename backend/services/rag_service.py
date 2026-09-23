@@ -2,7 +2,7 @@ import json
 
 from chromadb.errors import InvalidArgumentError
 
-from core.pipeline import RAGPipeline
+from core.pipeline import get_rag_pipeline
 
 from rag.generator import get_question_rewrite_prompt
 from schemas.chat import ChatHistoryMessage
@@ -20,7 +20,7 @@ class RAGService:
 
         print("Loading AI Engine...")
 
-        self.pipeline = RAGPipeline()
+        self.pipeline = get_rag_pipeline()
 
         self.embedding_model = self.pipeline.embedding_model
 
@@ -38,7 +38,7 @@ class RAGService:
 
     def refresh(self):
 
-        self.pipeline = RAGPipeline()
+        self.pipeline = get_rag_pipeline()
 
         self.embedding_model = self.pipeline.embedding_model
 

@@ -1,8 +1,10 @@
-from langchain_chroma import Chroma
+from functools import lru_cache
 from core.config import settings
+from services.embedding_factory import get_embedding_model
 
 
 def create_vector_store(chunks, embedding_model):
+    from langchain_chroma import Chroma
     return Chroma.from_documents(
         documents=chunks,
         embedding=embedding_model,
@@ -39,9 +41,12 @@ def delete_documents_by_source(vector_store, source_path: str):
         )
 
 
-def load_vector_store(embedding_model):
+@lru_cache(maxsize=1)
+def load_vector_store():
+    from langchain_chroma import Chroma
+    print("Initializing ChromaDB...")
     return Chroma(
         persist_directory="./chroma_db",
-        embedding_function=embedding_model,
+        embedding_function=get_embedding_model(),
         collection_name=settings.CHROMA_COLLECTION_NAME
     )

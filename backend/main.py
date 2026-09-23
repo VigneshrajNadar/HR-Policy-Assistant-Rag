@@ -47,3 +47,11 @@ def home():
     return {
         "message": "HR Policy Assistant API Running"
     }
+
+
+@app.get("/health")
+def health():
+
+    return {
+        "status": "ok"
+    }
