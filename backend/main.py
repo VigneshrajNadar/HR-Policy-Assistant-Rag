@@ -5,6 +5,7 @@ os.environ["OPENBLAS_NUM_THREADS"] = "1"
 os.environ["VECLIB_MAXIMUM_THREADS"] = "1"
 os.environ["NUMEXPR_NUM_THREADS"] = "1"
 os.environ["ANONYMIZED_TELEMETRY"] = "False"
+os.environ["MALLOC_ARENA_MAX"] = "2"
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
